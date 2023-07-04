@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Primeira aula</title>
+  </head>
+  <!--cabeça do html-->
+  <body>
+    <!-- corpo do html-->
+    <h1>Título 1</h1>
+    <h2>Título 2</h2>
+    <h3>Título 3</h3>
+    <h4>Título 4</h4>
+    <h5>Título 5</h5>
+    <h6>Título 6</h6>
+    <p>Hello World!</p>
+    <!--- <p></p> para paragráfo-->
+    <p>
+      <b>Lorem ipsum,</b> dolor sit amet consectetur adipisicing elit. Itaque
+      voluptatem iste vel error a minima dolore beatae,
+      <strong
+        >optio voluptatibus?
+        <hr
+      /></strong>
+      <br />Praesentium corrupti repellat ab minima facere rem modi doloremque
+      vero dolorem.
+    </p>
+    <p>Primeira Página html</p>
+    <hr />
+    <h1>Listas</h1>
+    <!-- <ul></ul> lista não ordenada -->
+    <ul>
+      <li>Mamão</li>
+      <li>Açúcar</li>
+      <li>Limão</li>
+      <li>Laranja</li>
+    </ul>
+    <ol>
+      <!-- <ol></ol> lista ordenada-->
+      <li>Fazer compras</li>
+      <li>Limpar a casa</li>
+      <li>Lavar o carro</li>
+      <li>Estudar</li>
+    </ol>
+    <hr />
+    <h1>Imagem</h1>
+    <img
+      style="width: 500px"
+      src="imagem/Mario.webp"
+      alt="Mário e Pitch cozinheiros"
+    />
+    <!---<a target="_blank" href = "adicionar o link aqui">Aqui eu escrevo o nome que eu quero que apareça no meu link</a> tag para criar link
+        target="_blank" para abrir o link em outra aba
+    -->
+    <a
+      target="_blank"
+      href="https://www.google.com/search?q=imagens&rlz=1C1GCEA_enBR1055BR1055&oq=imagens&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTINCAEQABiDARixAxiABDINCAIQABiDARixAxiABDINCAMQABiDARixAxiABDINCAQQABiDARixAxiKBTINCAUQABiDARixAxiABDINCAYQABiDARixAxiABDINCAcQABiDARixAxiABDINCAgQABiDARixAxiKBTIHCAkQABiABNIBCDEyOTRqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8#imgrc=nnlZj69A646COM"
+      >Ir para a página de imagens do google</a
+    >
+
+    <hr />
+    <h1>Tabela</h1>
+
+    <table>
+      <tr>
+        <th>Nome</th>
+        <th>Data de Nascimento</th>
+        <th>Telefone</th>
+        <th>Cidade</th>
+      </tr>
+      <tr>
+        <td>Fernanda</td>
+        <td>05/01/1991</td>
+        <td>(61)9999-9999</td>
+        <td>Brasília</td>
+      </tr>
+      <tr>
+        <td>José</td>
+        <td>18/09/1980</td>
+        <td>(62)8888-8888</td>
+        <td>Goiânia</td>
+      </tr>
+    </table>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3839.1764980730727!2d-47.91553542395771!3d-15.794644822963182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a3a8573c445db%3A0x3eecc7448f1a024b!2sSenai%20Bras%C3%ADlia!5e0!3m2!1spt-BR!2sbr!4v1687999673730!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  
+    <hr>
+    <h1>Formulário</h1>
+  <form>
+    <label for="nome">Nome: </label><br>
+    <input type="text" id ="nome" name="primeiroNome" placeholder="Digite aqui o seu nome"> 
+    <br>
+    <label for="sobrenome">Sobrenome: </label><br>
+    <input type="text" id = "sobrenome" nome="segundoNome" placeholder= "Digite aqui seu sobrenome"><br>
+
+    <label for="email">E-mail: </label><br>
+    <input type="email" id = "email" nome="email" placeholder= "seuemail@fake.com.br"><br>
+
+    <label for="numero">Numero: </label><br>
+    <input type="number" id = "numero" nome="numero" placeholder= "aqui só aceita números"><br>
+
+    <label for="senha">Senha: </label><br>
+    <input type="password" id = "senha" nome="senha" placeholder= "Digite aqui a sua senha"><br>
+
+    <label for="telefone">Telefone: </label><br>
+    <input type="tel" id = "telefone" nome="telefone" pattern="[0-9]{3}-[0-9]{5}-[0-9]{4}" placeholder= "Digite aqui o seu telefone"><br>
+
+
+    <h3>Selecione um curso de seu interesse</h3>
+    <input type="radio" id = "front" name="curso" value="front">
+    <label for="front">Front-end </label><br>
+
+    <input type="radio" id = "back" name="curso" value="back">
+    <label for="back">Back-end </label><br>
+    
+    <input type="radio" id = "sql" name ="curso" value="sql">
+    <label for="sql">Banco de dados </label><br>
+
+    <h3>Horários que tem disponibilidade</h3>
+    <input type="checkbox" id="matutino" name="matutino" value="matutino"></input>
+    <label for="matutino">Turno Matutino</label><br>
+
+    <input type="checkbox" id="vespertino" name="vespertino" value="vespertino"></input>
+    <label for="vespertino">Turno Vespertino</label><br>
+
+    <input type="checkbox" id="noturno" name="noturno" value="noturno"></input>
+    <label for="noturno">Noturno</label><br>
+
+    <button type ="submit" value="Enviar">Enviar</button>
+  </form>
+  
+  
+  
+  </body>
+</html>
