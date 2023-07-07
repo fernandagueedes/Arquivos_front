@@ -1,16 +1,17 @@
-.container {
-    width: 100%; 
 
+.container {
+    width: 100%;
 }
 
 .nav-bar{
-    background-color: #0080ff;
+    background-color: #31bdb6;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     height: 120px;
     width: 100%;
+
 }
 
 .nav-bar .logo img{
@@ -21,26 +22,24 @@
 }
 
 .nav-bar .links_paginas ul{
+
     display: flex;
     text-align: center;
     list-style-type: none;
-
 }
 
 .nav-bar ul li a{
     padding: 20px;
     color: white;
-    text-decoration: none;
+    text-decoration: #31bdb6;
 }
-
 .nav-bar ul li a:hover{
-    color: black;
-    font-size: 20px;
-    text-shadow: 1px 5px 10px #000;
+        padding: 20px;
+        color: rgb(10, 10, 10);
+        text-decoration: none;
 }
-
-.banner {
-    display: flex;
+.banner{
+    display: 100px;
     justify-content: center;
     align-items: center;
 }
@@ -49,40 +48,41 @@
     width: 100%;
 }
 
-.historia{
-    width: 70%;
-    margin: auto;
-    display: block;
-}
 
-h2{
+.cursos{
     text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
 }
 
-.hitoria p{
-    text-align: justify;
-}
-
-.colaboradores {
-    text-align: center;
-}
-
-.colaboradores .cards{
+.cursos .cards{
+    background-color: white;
+    background-size: 20px;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-around;
     padding: 100px 0;
+    margin: 0;
 }
-.colaboradores .cards img{
-    width: 80px;
+.cursos .card{
+    width: 300px;
+    padding: 0px 50px;
+    text-align: center;
+    margin: 0;
 }
 
-iframe {
-    margin: auto;
-    display: block;
 
+.cursos .cards img{
+    height: 80px;
+    margin-bottom: 30px;
 }
-footer {
+
+body{
+    background-color: #31bdb6;
+}
+
+.rodape {
     padding: 20px 0;
   /* margin: 10px 0 5px 0; */
     margin-top: 10px;
@@ -90,7 +90,3 @@ footer {
     text-align: center;
 }
 
-body {
-    margin: 0;
-    padding: 0;
-}
