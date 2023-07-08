@@ -1,0 +1,12 @@
+nav ul li a{
+    font-weight: bold!important;
+} /*serve para descacar a letra, fica mais "grossa" */
+
+nav ul li a:hover{
+    margin-top: -3px;
+    color: blue!important; /*muda a cor da letra quando passar o mouse em cima*/
+} /*diminui a margem em 3px */
+
+.card-header{
+    color: #FFF;
+}
