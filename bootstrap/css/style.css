@@ -7,6 +7,12 @@ nav ul li a:hover{
     color: blue!important; /*muda a cor da letra quando passar o mouse em cima*/
 } /*diminui a margem em 3px */
 
-.card-header{
+.card-header, .bloco-oferecemos, footer{
     color: #FFF;
 }
+
+.oferecemos i{
+    color: blueviolet;
+
+}
+
